@@ -49,7 +49,11 @@ header nav>div:last-child {
     width: 155px;
 }
 header nav>div a i {
+    padding: 5px;
     color: var(--color-nav-icons);
+}
+header .fa-bell {
+    color: var(--color-bell);
 }
 
 /* main */
