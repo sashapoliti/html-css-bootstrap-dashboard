@@ -21,22 +21,25 @@ nav {
     background-color: var(--color-card);
 }
 #topbar {
-    padding: 100px 10px 30px;
     background-color: var(--color-nav-bg);    
 }
 main {
   width: calc(100% - 150px);
   height: 100%;
   background-color: var(--color-primary);
+  padding-top: 68px;
 }
 #sidebar {
   width: 150px;
   height: 100%;
-  padding-top: 70px;
+  padding-top: 68px;
   background-color: var(--color-sidebar-first-bg);
 }
 
 /* main */
+main div.container-fluid {
+    padding-bottom: 100px;
+}
 main .card {
    margin-top: 24px; 
 }
@@ -50,4 +53,8 @@ main table tr td:not(td:first-child) {
 }
 main table img {
     width: 30px;
+}
+h2.accordion-header button {
+    font-size: 1rem;
+    font-weight: 500;
 }
