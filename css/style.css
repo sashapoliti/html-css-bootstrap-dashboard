@@ -101,4 +101,21 @@ h2.accordion-header button {
   header nav > div:last-child {
     width: auto;
   }
+  main {
+    width: calc(100% - 70px);
+  }
+  #sidebar {
+    padding: 0;
+    width: 70px;
+  }
+}
+@media screen and (max-width: 670px) {
+    .sp_first-off {
+        display: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    .sp_second-off {
+        display: none;
+    }
 }
