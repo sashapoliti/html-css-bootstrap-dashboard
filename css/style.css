@@ -11,6 +11,7 @@ body {
   --color-nav-bg: #1b72e8;
   --color-button-nav: #1a1a1a4f;
   --color-search-bar: #E5E5E5;
+  --color-nav-icons: #5A5858;
   --color-bell: #ff8f00;
 }
 header {
@@ -46,6 +47,9 @@ header nav form input{
 header nav>div:first-child,
 header nav>div:last-child {
     width: 155px;
+}
+header nav>div a i {
+    color: var(--color-nav-icons);
 }
 
 /* main */
