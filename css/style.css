@@ -15,6 +15,22 @@ body {
   --color-nav-icons: #5a5858;
   --color-bell: #ff8f00;
 }
+*::-webkit-scrollbar {
+  width: 15px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-nav-bg);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-nav-badge);
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: var(--color-sidebar-first-bg);
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
 header {
   background-color: var(--color-primary);
   padding: 15px 0;
