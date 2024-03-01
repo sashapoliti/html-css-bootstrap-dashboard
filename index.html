@@ -78,8 +78,55 @@
         <!-- main -->
         <main>            
             <div class="h-100 overflow-y-auto">
-                <div id="topbar">
-                    topbar
+                <div id="topbar" class="container-fluid ">
+                    <div class="row g-3 ">
+                      <div class="col-12 col-md-4 order-md-3  col-lg-2">
+                        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                          Link with href
+                        </a>                        
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <div>
+                              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                            </div>
+                            <div class="dropdown mt-3">
+                              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                Dropdown button
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-4 order-md-1  col-lg-6">
+                        <div class="d-flex flex-wrap  align-items-baseline ">
+                          <h2 class="me-2">Boolean</h2>
+                          <div>
+                            <span class="badge rounded-pill ">Piano blaze</span>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="badge rounded-pill ">3 app</span>
+                          <span><i class="fa-solid fa-angles-right"></i></span>
+                          <span class="badge rounded-pill d-lg-none "><i class="fa-solid fa-plus"></i></span>
+                          <span class="badge rounded-pill d-none d-lg-inline-block">Boolean mobile app</span>
+                          <span class="badge rounded-pill d-none d-lg-inline-block">Boolean web app</span>
+                          <span class="badge rounded-pill d-none d-lg-inline-block">Boolean blog app</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-4 order-md-2  col-lg-4">
+                        <span class="fs-6">Studenti online negli ultimi 30 minuti</span>
+                        <h2 class="pt-3 ">125</h2>
+                      </div>
+                    </div>
                 </div>
                 <div class="container-fluid ">
                     <div class="row">
