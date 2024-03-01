@@ -97,6 +97,9 @@ header .fa-bell {
 #topbar .badge .fa-plus {
   font-size: 0.7rem;
 }
+#topbar .offcanvas {
+  width: 50%;
+}
 main div.container-fluid {
   padding-bottom: 40px;
 }
@@ -126,6 +129,9 @@ h2.accordion-header button {
   .sp_first-off {
     display: none;
 }
+#topbar .offcanvas {
+  width: 75%;
+}
 }
 @media screen and (max-width: 991px) {
   .sp_first-off {
@@ -150,6 +156,9 @@ h2.accordion-header button {
   header nav > div:first-child,
   header nav > div:last-child {
     width: auto;
+  }
+  #topbar .offcanvas {
+    width: 100%;
   }
   main {
     width: calc(100% - 70px);
