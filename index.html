@@ -87,23 +87,66 @@
                         </a>                        
                         <div class="offcanvas offcanvas-end " data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                           <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <h4 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h4>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                           </div>
                           <div class="offcanvas-body">
-                            <div>
-                              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                            </div>
-                            <div class="dropdown mt-3">
-                              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                Dropdown button
-                              </button>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                              </ul>
-                            </div>
+                            <form class="row g-3">
+                              <div class="col-md-6">
+                                <label for="inputName" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="inputName">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputSurname" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="inputSurname">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <div class="input-group flex-nowrap">
+                                  <span class="input-group-text" id="addon-wrapping">@</span>
+                                  <input type="email" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" id="inputEmail4">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                              <div class="col-12">
+                                <label for="inputAddress" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Numero civico, Via, Piazza">
+                              </div>
+                              <div class="col-12">
+                                <label for="inputAddress2" class="form-label">Address 2</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Appartamento, studio, o piano">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="inputCity">
+                              </div>
+                              <div class="col-md-4">
+                                <label for="inputState" class="form-label">Stato</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Scegli...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+                              <div class="col-md-2">
+                                <label for="inputZip" class="form-label text-uppercase ">Cap</label>
+                                <input type="text" class="form-control" id="inputZip">
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                                  <label class="form-check-label" for="gridCheck">
+                                    Seleziona per proseguire
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <button type="submit" class="btn btn-warning ">Svuota</button>
+                              </div>
+                            </form>
                           </div>
                         </div>
                       </div>
